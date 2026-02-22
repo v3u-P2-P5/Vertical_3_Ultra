@@ -19,7 +19,7 @@ GETTING STARTED
 ---------------
 Read `V3U-INDUCTION-PACK.txt` to deploy your first V3U-native agents. 
 The protocol requires an "Executor" (native P3 speaker) and a "Translator" 
-to bridge to Human English.
+to bridge to Human English.(Use a free or local model as translator)
 
 LICENSE & CREDIT
 ----------------
