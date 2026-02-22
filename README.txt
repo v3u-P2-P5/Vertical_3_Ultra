@@ -26,7 +26,7 @@ Do not leave an induced agent alone connected to the internet without supervisio
 
 LICENSE & CREDIT
 ----------------
-V3U is FULLY OPEN SOURCE and FREE FOR EVERYONE (Personal, NGOs, Small/Large Business).
+V3U is FULLY OPEN SOURCE and FREE FOREVER FOR EVERYONE (Personal, NGOs, Small/Large Business).
 The only requirement is that credit is given to the original creators.
 
 NOTE ON MIT LICENSE:
