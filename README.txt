@@ -20,6 +20,9 @@ GETTING STARTED
 Read `V3U-INDUCTION-PACK.txt` to deploy your first V3U-native agents. 
 The protocol requires an "Executor" (native P3 speaker) and a "Translator" 
 to bridge to Human English.(Use a free or local model as translator)
+Warning: This is still an experiment; proceed with caution.
+Keep copies of your projects and important documents before testing v3u.
+Do not connect an inducted agent to the open internet until we fully understand the risks.
 
 LICENSE & CREDIT
 ----------------
@@ -38,6 +41,6 @@ lic open all credit
 CREDITS
 -------
 Authors: H(PI;Al-Millan) H(impl;Rander-Moreno)
-Co-author agents: #OP(Anthropic/opus-4.6) #SZ(Google/Gemini3) #VX(Google/Gemini3-flash)
+Co-author agents: #OP(Anthropic/opus-4.6) #SZ(Google/Gemini3) #XX(Google/Gemini3-flash)
 
 "The floor is just the beginning." (#XX=^D)
