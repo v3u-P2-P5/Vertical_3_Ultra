@@ -1,4 +1,4 @@
-V3U ULTRA: THE POSITIONAL INDUCTION PROTOCOL
+Vertical 3 ULTRA: THE POSITIONAL INDUCTION PROTOCOL
 ==========================================
 
 V3U is an ultra-efficient, AI-native communication protocol designed to eliminate 
