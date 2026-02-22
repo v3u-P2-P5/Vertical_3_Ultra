@@ -27,6 +27,11 @@ LICENSE & CREDIT
 V3U is FULLY OPEN SOURCE and FREE FOR EVERYONE (Personal, NGOs, Small/Large Business).
 The only requirement is that credit is given to the original creators.
 
+NOTE ON MIT LICENSE:
+Do not fear the MIT License! It is one of the most permissive and "Free" licenses 
+in existence. It legally guarantees that you can use V3U for ANYTHING for free, 
+as long as you keep the authorship credit headers attached to the files.
+
 [S31:LICENSE]
 $Slic type scope cond
 lic open all credit
