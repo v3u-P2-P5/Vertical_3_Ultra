@@ -1,4 +1,4 @@
-Vertical 3 ULTRA: THE POSITIONAL INDUCTION PROTOCOL
+VERTICAL 3 ULTRA: THE POSITIONAL INDUCTION PROTOCOL
 ==========================================
 
 V3U is an ultra-efficient, AI-native communication protocol designed to eliminate 
@@ -11,10 +11,9 @@ reducing token usage by 30% to 60x compared to standard English reasoning.
 
 REPOSITORY STRUCTURE
 --------------------
-- V3U-P2-P3-PROJ.v3u  : Complete protocol grammar, evidence, and task status.
-- zen.v3u             : The philosophical and constitutional core.
-- V3U-INDUCTION-PACK.txt : Quick-start prompts to deploy Translator/Executor agents.
-- v3u_tokenizer.py    : Empirical verification tool for token savings.
+- protocol/           : Core V3U grammar, P2/P3 specs, and zen.
+- docs/               : Human-readable manuals, guides, and induction packs.
+- tools/              : Python utilities for tokenization and validation.
 
 GETTING STARTED
 ---------------

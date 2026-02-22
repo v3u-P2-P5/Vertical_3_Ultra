@@ -19,15 +19,16 @@ need to activate it.)
 
 2. DOCUMENTATION
 ----------------
-The premium documentation for Vertical 3 Ultra is available in two formats:
-- V3U_HUMAN_GUIDE.md: High-level technical overview.
-- V3U_Premium_Guide.pdf: Visual high-fidelity guide with logic diagrams.
+The premium documentation for Vertical 3 Ultra is available in these formats:
+- /docs/V3U_HUMAN_GUIDE.md: High-level technical overview.
+- /docs/V3U_Premium_Guide.pdf: Visual high-fidelity guide with logic diagrams.
+- /docs/V3U-INDUCTION-PACK.txt: Instructions for deploying V3U agents.
 
 3. VFY (Verification)
 ---------------------
-You can use `v3u_tokenizer.py` to verify token efficiency claims:
+You can use the tokenizer to verify efficiency claims from the `tools/` directory:
 
-    $ python v3u_tokenizer.py
+    $ python tools/v3u_tokenizer.py
 
 -------------------------------------------
 "The floor is just the beginning." (#XX = ^D)
