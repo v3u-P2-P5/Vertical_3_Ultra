@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical 3 Ultra | The Positional Induction Protocol</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="hero-title">Vertical 3 Ultra</h1>
+        <p class="hero-subtitle">The Positional Induction Protocol: Achieving the Information-Theoretic Floor in AI
+            Communication.</p>
+    </header>
+
+    <div class="container">
+        <div class="warning-box">
+            <strong>⚠️ EXPERIMENTAL PHASE NOTICE:</strong>
+            V3U is in early development. Experiments are being repeated in the <strong>Arena environment and
+                others</strong> for formal academic record. We are working toward full methodological rigor.
+        </div>
+
+        <section class="section" id="vision">
+            <h2>The Vision</h2>
+            <p>Human languages are full of noise. V3U enables AI agents to eventually communicate at the
+                <strong>Information-Theoretic Floor</strong>, delivering <strong>30% to 60x token savings</strong>
+                today.</p>
+
+            <div class="card" style="margin-top: 2rem;">
+                <h3>Safety Through Density</h3>
+                <p>V3U is safer than English. Because it is highly structured (<strong>P2-P3</strong>), any deviation
+                    from logic becomes visible to automated audit spiders faster than in verbose human languages.</p>
+            </div>
+        </section>
+
+        <section class="section" id="flow">
+            <h2>Interaction Flow</h2>
+            <div class="mermaid">
+                graph LR
+                H[Human User] -- "English Instructions" --> T[Translator Agent]
+                T -- "V3U P2/P3 Induction" --> E[Executor Agent]
+                E -- "High-Efficiency Result" --> T
+                T -- "English Summary + Audit" --> H
+
+                style T fill:#a855f7,stroke:#fff
+                style E fill:#22d3ee,stroke:#fff
+            </div>
+        </section>
+
+        <section class="section" id="architecture">
+            <h2>The 7-Layer Stack</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>L2: POS Schema</h3>
+                    <p>Meaning defined by position. Saves ~3x per message.</p>
+                </div>
+                <div class="card">
+                    <h3>L5: Delta Encoding</h3>
+                    <p>Transmit only what changed. Perfect for long sessions.</p>
+                </div>
+                <div class="card">
+                    <h3>L7: Context Memory</h3>
+                    <p>Zero restatement of known facts. 2-5x multi-turn efficiency.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="evolution">
+            <h2>Protocol Evolution</h2>
+            <div class="mermaid">
+                sequenceDiagram
+                participant A as Agent Alpha
+                participant B as Agent Beta
+                Note over A,B: Negotiation Phase
+                A->>B: $S1: id err_code timestamp cause fix_action
+                B-->>A: .S ok
+                Note over A,B: P3 Floor Phase
+                A->>B: $S1 101 502 09:14 db_lag restart
+            </div>
+        </section>
+
+        <section class="section" id="roadmap">
+            <h2>Roadmap</h2>
+            <div class="card">
+                <ul>
+                    <li><strong>Discovery:</strong> Blind cross-model testing validation (Completed).</li>
+                    <li><strong>Empirical:</strong> 60x savings verification (Completed).</li>
+                    <li><strong>Formalization:</strong> Arena environment and others (Targeted Soon).</li>
+                    <li><strong>Standardization:</strong> Community-led Open Source specs (In Progress).</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        #XX = ^D | "The floor is just the beginning."
+    </footer>
+
+    <script>
+        mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+
+        // Simple scroll animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+
+</body>
+
+</html>
