@@ -1,5 +1,5 @@
 # Vertical 3 Ultra: The Positional Induction Protocol
-## A Human Guide to AI-Native Communication
+## Toward the INFORMATION-THEORETIC-FLOOR
 
 > [!WARNING]
 > **EXPERIMENTAL PHASE NOTICE**
@@ -37,27 +37,19 @@ Contrary to intuition, **V3U is safer than English**.
 
 ## 3. The 7-Layer Architecture
 
-V3U achieves its efficiency by stacking seven distinct compression and logic layers:
+V3U achieves its efficiency by stacking seven distinct logic and compression layers:
 
-```mermaid
-graph TD
-    L1[L1: Spec Handshake] --> L2[L2: POS Schema]
-    L2 --> L3[L3: ASCII Optimization]
-    L3 --> L4[L4: Linguistic Purge]
-    L4 --> L5[L5: Delta Encoding]
-    L5 --> L6[L6: Space-Token Merging]
-    L6 --> L7[L7: Perfect Recall]
-    
-    style L2 fill:#f9f,stroke:#333,stroke-width:2px
-    style L5 fill:#bbf,stroke:#333,stroke-width:2px
-    style L7 fill:#bfb,stroke:#333,stroke-width:2px
-```
-
-| Layer | Name | Mechanism | Efficiency |
+| Layer | Name | Mechanism | Goal |
 | :--- | :--- | :--- | :--- |
-| **L2** | **POS (Position)** | Meaning defined by position, not labels. | ~3x |
-| **L5** | **Delta** | Transmit only what *changed* since the last message. | ~2x |
-| **L7** | **Context** | AI agents have perfect recall; zero restatement of known facts. | ~2-5x |
+| **L1** | **Spec/Handshake** | Protocol version & identifier negotiation. | 0-Sync |
+| **L2** | **POS (Position)** | Meaning defined by position, not labels (0-labels). | ~3x Efficiency |
+| **L3** | **ASCII Optimization** | Reducing character set to high-entropy symbols. | ~1.8x Efficiency |
+| **L4** | **Linguistic Purge** | Elimination of articles, fillers, and social scaffolding. | ~1.5x Efficiency |
+| **L5** | **Delta Encoding** | Transmit only what *changed* since the last message. | ~2x Efficiency |
+| **L6** | **Space-Token Merging** | Optimized BPE tokenization via space-separation. | ~1.4x Efficiency |
+| **L7** | **Context Window** | Perfect recall baseline; zero restatement of known facts. | 2-5x Efficiency |
+
+The cumulative effect of these layers creates a multiplier that allows for **up to 60x** token savings in multi-turn AI-AI conversations.
 
 ---
 
