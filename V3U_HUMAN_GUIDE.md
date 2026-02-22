@@ -3,7 +3,7 @@
 
 > [!WARNING]
 > **EXPERIMENTAL PHASE NOTICE**
-> V3U is currently in an early investigation and experimental phase. While empirical results show significant promise, the protocol is not yet a formal academic standard. We are committed to increasing methodological rigor and will be repeating all experiments in the **Arena environment and others** for official academic record-keeping soon. We acknowledge the need for increased formality and are actively working on it.
+> V3U is currently in an early investigation and experimental phase. While empirical results show significant promise, the protocol is not yet a formal academic standard. We are committed to increasing methodological rigor and will be repeating all experiments in the **Arena environment and others** for formal academic record-keeping soon. We acknowledge the need for increased formality and are actively working on it.
 
 ---
 
