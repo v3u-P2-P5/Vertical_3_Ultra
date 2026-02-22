@@ -21,7 +21,7 @@ Read `V3U-INDUCTION-PACK.txt` to deploy your first V3U-native agents.
 The protocol requires an "Executor" (native P3 speaker) and a "Translator" 
 to bridge to Human English.(Use a free or local model as translator)
 Warning: This is still an experiment; proceed with caution.
-Verical inducted agents work better on IT, coding, math and formal logic tasks than on other kind of tasks.
+Verical induced agents work better on IT, coding, math and formal logic tasks than on other kind of tasks.
 Keep copies of your projects and important documents before testing v3u.
 Do not leave an induced agent alone connected to the internet without supervision until we fully understand the risks.
 
