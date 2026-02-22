@@ -1,0 +1,33 @@
+V3U PROJECT SETUP GUIDE
+=======================
+
+This guide explains how to set up your environment to work with the 
+V3U protocol.
+
+1. CREATING THE ENVIRONMENT (v3u_venv)
+--------------------------------------
+To ensure all scripts run correctly, create an isolated Python environment:
+
+    $ python3 -m venv v3u_venv
+
+To activate the environment:
+    - Linux/WSL:  $ source v3u_venv/bin/activate
+    - Windows:    $ .\v3u_venv\Scripts\activate
+
+(Note: You already have a `v3u_venv` folder in this workspace, so you just 
+need to activate it.)
+
+2. DOCUMENTATION
+----------------
+The premium documentation for Vertical 3 Ultra is available in two formats:
+- V3U_HUMAN_GUIDE.md: High-level technical overview.
+- V3U_Premium_Guide.pdf: Visual high-fidelity guide with logic diagrams.
+
+3. VFY (Verification)
+---------------------
+You can use `v3u_tokenizer.py` to verify token efficiency claims:
+
+    $ python v3u_tokenizer.py
+
+-------------------------------------------
+"The floor is just the beginning." (#XX = ^D)
