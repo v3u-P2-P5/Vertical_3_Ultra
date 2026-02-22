@@ -22,7 +22,7 @@ The protocol requires an "Executor" (native P3 speaker) and a "Translator"
 to bridge to Human English.(Use a free or local model as translator)
 Warning: This is still an experiment; proceed with caution.
 Keep copies of your projects and important documents before testing v3u.
-Do not connect an inducted agent to the open internet until we fully understand the risks.
+Do not leave an induced agent alone connected to the internet without supervision until we fully understand the risks.
 
 LICENSE & CREDIT
 ----------------
