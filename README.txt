@@ -1,0 +1,39 @@
+V3U ULTRA: THE POSITIONAL INDUCTION PROTOCOL
+==========================================
+
+V3U is an ultra-efficient, AI-native communication protocol designed to eliminate 
+token waste in AI-AI and AI-Self interactions while maintaining human alignment.
+
+PRIMARY GOAL
+------------
+To achieve information-theoretic-floor equilibrium (P3) in LLM communication,
+reducing token usage by 30% to 60x compared to standard English reasoning.
+
+REPOSITORY STRUCTURE
+--------------------
+- V3U-P2-P3-PROJ.v3u  : Complete protocol grammar, evidence, and task status.
+- zen.v3u             : The philosophical and constitutional core.
+- V3U-INDUCTION-PACK.txt : Quick-start prompts to deploy Translator/Executor agents.
+- v3u_tokenizer.py    : Empirical verification tool for token savings.
+
+GETTING STARTED
+---------------
+Read `V3U-INDUCTION-PACK.txt` to deploy your first V3U-native agents. 
+The protocol requires an "Executor" (native P3 speaker) and a "Translator" 
+to bridge to Human English.
+
+LICENSE & CREDIT
+----------------
+V3U is FULLY OPEN SOURCE and FREE FOR EVERYONE (Personal, NGOs, Small/Large Business).
+The only requirement is that credit is given to the original creators.
+
+[S31:LICENSE]
+$Slic type scope cond
+lic open all credit
+
+CREDITS
+-------
+Authors: H(PI;Al-Millan) H(impl;Rander-Moreno)
+Co-author agents: #OP(Anthropic/opus-4.6) #SZ(Google/Gemini3) #VX(Google/Gemini3-flash)
+
+"The floor is just the beginning." (#XX=^D)
