@@ -96,7 +96,12 @@ V3U solves both failure modes simultaneously:
 
 ## 4. Quick Start (60 seconds)
 
-> **Prerequisites:** Two AI agent instances. Agent A can be a free/local model (Gemini 3 Fast, for example, generally works well). Agent B benefits from a frontier model.
+> **Prerequisites:** Two AI agent instances:
+
+Agent A can be a free/local model (Gemini 3 Fast, for example, generally works well. You can also experiment with smaller models if you like)
+Agent B benefits from a frontier model. (But you can also try with free/local ones to see what happens)
+
+After you get used to the 2 agents' interaction, you can add more executors, and keep one translator
 
 **Step 1 — Give both agents access to the grammar file:**
 ```
