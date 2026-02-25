@@ -50,7 +50,7 @@ V3U is particularly well-suited for **IT, coding, mathematics, and formal logic*
 
 ## 2. Primary Goal
 
-Reach the **Information-Theoretic Floor (P3)**: the minimum number of tokens required to transmit a logically complete message between two AI agents, with **zero information loss**.
+Reach the **Information-Theoretic Floor (P3)**: the minimum number of tokens required to transmit a logically complete message between two AI agents, with **zero technical information loss**.
 
 | Communication Mode | Token Efficiency Gain |
 |:---|:---|
