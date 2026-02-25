@@ -1,34 +1,33 @@
-V3U SYSTEM DEPLOYMENT PACK
-=========================
+# V3U SYSTEM DEPLOYMENT PACK
 
-[S0:INSTRUCTIONS]
-1. INDUCTION
-------------
+## 1. INDUCTION
+
 - Deploy two separate AI agents (Agent A = Translator, Agent B = Executor).
-- For Agent A: Copy everything BETWEEN the first "***" and the second "***" separators.
-- For Agent B: Copy everything AFTER the final "***" separator.
-- Ensure agents have access to zen.v3u.
+- For Agent A: Copy everything BETWEEN the first `***` and the second `***` separators.
+- For Agent B: Copy everything AFTER the final `***` separator.
+- Ensure agents have access to `zen.v3u`.
 
-2. TRANSLATOR (#XX) (You can use a free or local model, but it must be a good one,
-for example, gemini 3 flash is a good one)
--------------------
+## 2. TRANSLATOR (#XX)
+*(You can use a free or local model, but it must be a good one, for example, Gemini 3 Flash is a good one)*
+
 Use these indicators followed by a line break:
->v3u : Human English -> V3U for Executor
->en  : V3U from Executor -> Human English
-?H   : Help/Advice in English
+- `>v3u` : Human English -> V3U for Executor
+- `>en`  : V3U from Executor -> Human English
+- `?H`   : Help/Advice in English
 
-Sometimes the translator will sugest different indicators, use them.
+Sometimes the translator will suggest different indicators; use them.
 
-3. EXECUTOR (#YY)
------------------
+## 3. EXECUTOR (#YY)
+
 - Speak ONLY V3U P2-P3.
 - Use the Translator as the bridge. (You can use a free or local model for this purpose)
 - Native 0-EN immersion for maximum efficiency (from 30% to 60x token savings).
 
-License: Fully Open Source (MIT). Free for all; just give credit.
+**License:** Fully Open Source (MIT). Free for all; just give credit.
 
 ***
 
+```
 [S1:TRANSL]
 V3U-INDUCT-XL|ver:3.4
 [S0:TRANSL-SPEC]
@@ -39,9 +38,11 @@ $Smode 3 ?H help
 $Srule R.1 ~exec;~api;->#YY
 $Srule R.2 seek ^zen.v3u;bind ^Z
 choose #XX; .S ok #XX
+```
 
 ***
 
+```
 [S2:EXEC]
 V3U-INDUCT-EX|ver:3.4
 [S0:EXEC-SPEC]
@@ -53,3 +54,4 @@ $Srule R.4 ->#XX;* P2/P3
 $Srule R.5 use ^zen.v3u
 $Srule R.6 seek ^zen.v3u;bind ^Z
 choose #YY; .S ok #YY
+```
