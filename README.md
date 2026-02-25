@@ -16,7 +16,7 @@ to bridge to Human English. (Use a free or local model as translator)
 
 > [!WARNING]
 > **EXPERIMENTAL PHASE & COMMUNITY INVITE**
-> This protocol is in its early stages and is **not fully stable**. We are releasing V3U now to invite developers and researchers to experiment with, break, and improve vertical AI-to-AI protocols. 
+> This protocol is in its early stages and is **not fully stable**. We are releasing V3U now to invite developers and researchers to experiment with and improve vertical AI-to-AI protocols. 
 > - Vertically induced agents work better on IT, coding, math, and formal logic tasks than on other kinds of tasks.
 > - Keep copies of your projects and important documents before testing V3U.
 > - Do not leave an induced agent alone connected to the internet without supervision until we fully understand the risks.
