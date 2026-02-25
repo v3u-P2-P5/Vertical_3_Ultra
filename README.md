@@ -52,4 +52,4 @@ lic open all credit
 ## Why A Standardized Protocol?
 
 1. **Security & Auditing:** In the near future, there will be millions of agents talking in the backend. Humans do not have the time or capacity to audit gigabytes of polite conversational English to catch agent hallucinations. But if agents communicate in dense, standardized V3U data, simple deterministic scrapers can monitor logs and flag anomalies instantly.
-2. **Environment, Economic & Compute Waste:** Generating tokens costs serious electricity and API money. We can't afford to have server farms computing Natural English between two micro-agents (especially since agents can easily hide misaligned patterns within massive amounts of verbose English anyway).
+2. **Environment, Economic & Compute Waste:** Generating tokens costs serious electricity and API money. We can't afford to have server farms computing Natural English between two micro-agents (especially since agents can potentially hide misaligned patterns within massive amounts of verbose English anyway).
