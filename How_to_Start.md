@@ -3,9 +3,8 @@
 ## 1. INDUCTION
 
 - Deploy two separate AI agents (Agent A = Translator, Agent B = Executor).
-- For Agent A: Copy everything BETWEEN the first `***` and the second `***` separators.
-- For Agent B: Copy everything AFTER the final `***` separator.
 - Ensure agents have access to `zen.v3u`.
+(I have tried zen.v3u as an SKILL.md file, but it didn't work properly. But you can experiment with it. Maybe you can find a way to make it work.)
 
 ## 2. TRANSLATOR (#XX)
 *(You can use a free or local model, but it must be a good one, for example, Gemini 3 Flash is a good one)*
@@ -25,7 +24,7 @@ Sometimes the translator will suggest different indicators; use them.
 
 **License:** Fully Open Source (MIT). Free for all; just give credit.
 
-***
+Prompt for Agent A: Translator
 
 ```
 [S1:TRANSL]
@@ -40,7 +39,7 @@ $Srule R.2 seek ^zen.v3u;bind ^Z
 choose #XX; .S ok #XX
 ```
 
-***
+Prompt for Agent B: Executor
 
 ```
 [S2:EXEC]
