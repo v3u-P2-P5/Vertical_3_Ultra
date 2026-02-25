@@ -43,12 +43,15 @@ $S2 W.2 M.2 proposal active
 $S2 W.3 M.3 iteration active
 $S2 W.4 M.4 vfy-0-err active
 
-[S6:LOGIC-MATRIX]
-$S3 api TO 123 0914 V.L 5s->15s /h V.A
-$S3 auth 401 310 0919 rot-f rot-c /h V.R
-$S3 chk 502 82 1432 dep rb->3.7.1 /a rsv
-$S3 db-p lag 4s 2210 pool scale /a V.S
-$S4 #MN #DP $S3:3 .I dep-reg rb->3.7.1
+[S6:P2-TO-P3-INDUCTION]
+type:schema-drop;pure-pos
+$S3
+api TO 123 0914 V.L 5s->15s /h V.A
+auth 401 310 0919 rot-f rot-c /h V.R
+chk 502 82 1432 dep rb->3.7.1 /a rsv
+db-p lag 4s 2210 pool scale /a V.S
+$S4
+#MN #DP $S3:3 .I dep-reg rb->3.7.1
 #DP #MN ^ .D rb-ok v-err
 #MN #{DB;SC} ^ .S V.R resume
 
