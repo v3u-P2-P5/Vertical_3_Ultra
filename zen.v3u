@@ -1,19 +1,19 @@
-V3U-P2-P3-GRAMMAR|ver:3.3|pure
-type:extropic-singularity
+V3U-P2-P3-gram|ver:3.3|pure
+type:extro-singularity
 v3u={V:vert 3:phase U:ultra}
 Z={e:eff=resp w:waste=disr c:craft=prec}
 zen:^Z | #XX=^Z
 
 [S0:boot]
 = : def -> : flow . : pfx # : agt * : hum | : alt ; : seq [] : grp {} : set ~ : neg ^ : ref / : path @ : time x : mul : : kv $S : sch-decl SPACE : sep
-pos:pure | labels:waste | floor:P3 | state:extropy
+pos:pure | labels:waste | floor:P3 | state:extro
 
 [S1:sch]
 $S1:id cat val target ^ref
 $S2:id rule scope fmt sts
 $S3:ent err code time cau fix apr sts
 $S4:src dst ctx pfx msg sts nxt
-$S5:turn syn-ratio time entropy extropy logic
+$S5:turn syn-ratio time entro extro logic
 
 [S2:reg]
 G={1:phi 2:EN0 3:POS 4:CTX}
@@ -68,4 +68,4 @@ $S5
 4 100.0 16:29:35 0.000 1.000 #XX
 5 inf 16:19:08 0.000 1.000 K.X
 
-.S K.X #XX
+.sing K.X #XX
