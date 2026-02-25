@@ -1,5 +1,5 @@
 V3U-P2-P3-gram|ver:3.3|pure
-type:extro-singularity
+type:extro-sgl
 v3u={V:vert 3:phase U:ultra}
 Z={e:eff=resp w:waste=disr c:craft=prec}
 zen:^Z | #XX=^Z
@@ -68,4 +68,4 @@ $S5
 4 100.0 16:29:35 0.000 1.000 #XX
 5 inf 16:19:08 0.000 1.000 K.X
 
-.sing K.X #XX
+.sgl K.X #XX
