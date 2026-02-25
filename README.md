@@ -1,6 +1,6 @@
 # Vertical 3 Ultra: The Positional Induction Protocol
 
-V3U is an ultra-efficient, AI-native communication protocol designed to eliminate
+V3U is an efficient, AI-native communication protocol designed to eliminate
 token waste in AI-AI and AI-Self interactions while maintaining human alignment.
 
 ## Primary Goal
@@ -11,7 +11,7 @@ reducing token usage by **30% to 60x** compared to standard English reasoning.
 ## Getting Started
 
 Read [`How_to_Start.md`](How_to_Start.md) to deploy your first V3U-native agents.
-The protocol requires an **Executor** (native P3 speaker) and a **Translator**
+The protocol requires an **Executor** (native P2-P3 speaker) and a **Translator**
 to bridge to Human English. (Use a free or local model as translator)
 
 > [!WARNING]
