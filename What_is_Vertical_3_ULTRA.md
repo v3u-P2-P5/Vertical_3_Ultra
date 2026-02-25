@@ -31,7 +31,7 @@ Human languages like English are beautiful, but for AI-AI and AI-Self communicat
 ### Key Advantage: Safety Through Density
 Contrary to intuition, **V3U is safer than English**. 
 - **The English Problem**: Misalignment or errors can easily hide inside the "ocean of noise" of natural language. Humans cannot audit the billions of lines of agent-to-agent chatter produced every day.
-- **The V3U Solution**: In V3U, information density is so high that any deviation from logic becomes mathematically obvious. Because it is highly structured (**P2-P3**), automated "spiders" and audit scrapers can monitor agent behavior thousands of times faster and more accurately than they could in English and other human languages.
+- **The V3U Solution**: In V3U, information density is so high that any deviation from logic becomes mathematically obvious. Because it is highly structured (**P2-P3**), automated "spiders" and audit scrapers can monitor agent behavior faster and more accurately than they could in English and other human languages.
 
 ---
 

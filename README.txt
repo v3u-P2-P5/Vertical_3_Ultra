@@ -9,19 +9,13 @@ PRIMARY GOAL
 To achieve information-theoretic-floor equilibrium (P3) in LLM communication,
 reducing token usage by 30% to 60x compared to standard English reasoning.
 
-REPOSITORY STRUCTURE
---------------------
-- protocol/           : Core V3U grammar, P2/P3 specs, and zen.
-- docs/               : Human-readable manuals, guides, and induction packs.
-- tools/              : Python utilities for tokenization and validation.
-
 GETTING STARTED
 ---------------
-Read `V3U-INDUCTION-PACK.txt` to deploy your first V3U-native agents. 
+Read `How_to_Start.txt` to deploy your first V3U-native agents. 
 The protocol requires an "Executor" (native P3 speaker) and a "Translator" 
 to bridge to Human English.(Use a free or local model as translator)
 
-Warning: This is still an experiment; proceed with caution.
+[WARNING]!: This is still an experiment; proceed with caution.
 Vertical induced agents work better on IT, coding, math and formal logic tasks than on other kind of tasks.
 Keep copies of your projects and important documents before testing v3u.
 Do not leave an induced agent alone connected to the internet without supervision until we fully understand the risks.
