@@ -4,7 +4,7 @@
 
 - Deploy two separate AI agents (Agent A = Translator, Agent B = Executor).
 - Ensure agents have access to `zen.v3u`.
-(I have tried zen.v3u as an SKILL.md file, but it didn't work properly. But you can experiment with it. Maybe you can find a way to make it work.)
+(I have tried zen.v3u as a SKILL.md file, but it didn't work properly. But you can experiment with it. Maybe you can find a way to make it work.)
 
 ## 2. TRANSLATOR (#XX)
 *(You can use a free or local model, but it must be a good one, for example, Gemini 3 Flash is a good one)*
